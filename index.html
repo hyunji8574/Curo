@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/jquery.easie.js"></script>
+    <script src="js/index.js"></script>
+
+    <title>Curo</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+    <!--start header-->
+    <header>
+        <ul id="top_menu">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">고객센터</a>
+                <ul class="top_sub">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">1:1문의</a></li>
+                    <li><a href="#">교환 및 반품</a></li>
+                </ul>
+            </li>
+            <li><a href="#">HOME</a></li>
+        </ul>
+        <div id="logo">
+            <a href="#">
+                <img src="img/curo_simbol.png" alt="curo_simbol">
+                <img src="img/curo_logo.png" alt="curo_logo">
+            </a>
+        </div>
+        <div id="search">
+            <input type="text">
+            <a href="#"><img src="img/search_icon.png" alt="search_icon"></a>
+        </div>
+        <ul id="main_menu">
+            <li><a href="#"><img src="img/bars.png" alt="bars">카테고리</a>
+                <div class="main_categories">
+                    <p class="categories_title">전체 카테고리</p>
+                    <div class="clear"></div>
+                    <ul class="category">
+                        <li><a href="#"><span class="icon icon1"></span>채소·견과류</a></li>
+                        <li><a href="#"><span class="icon icon2"></span>달걀·유제품</a></li>
+                        <li><a href="#"><span class="icon icon3"></span>음료</a></li>
+                        <li><a href="#"><span class="icon icon4"></span>죽·간편식</a></li>
+                    </ul>
+                    <ul class="category">
+                        <li><a href="#"><span class="icon icon5"></span>육류</a></li>
+                        <li><a href="#"><span class="icon icon6"></span>수산·건어물</a></li>
+                        <li><a href="#"><span class="icon icon7"></span>간식·디저트</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">인기상품</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">매장안내</a></li>
+            <li><a href="#">브랜드뉴스</a></li>
+        </ul>
+    </header>
+    <!--end header-->
+
+    <div class="clear"></div>
+
+    <!--start main_slider-->
+    <div id="main_slider">
+        <div class="btn1 left"><a href="#"><img src="img/left_arrow_main.png" alt="arrow_main"></a></div>
+        <div class="btn1 right"><a href="#"><img src="img/right_arrow_main.png" alt="arrow_main"></a></div>
+        <ul id="main_slider_inner">
+            <li class="slide slide1 on"></li>
+            <li class="slide slide2"></li>
+            <li class="slide slide3"></li>
+        </ul>
+    </div>
+    <!--end main_slider-->
+
+    <div class="clear"></div>
+
+    <!--start today_pick-->
+    <section id="today_pick_wrap">
+        <h2>오늘의 Pick</h2>
+        <span class="more"><a href="#"><span class="plus">+</span> 더보기</a></span>
+        <div class="btn2 left"><a href="#"><img src="img/left_arrow_sub.png" alt="arrow_sub"></a></div>
+        <div class="btn2 right"><a href="#"><img src="img/right_arrow_sub.png" alt="arrow_sub"></a></div>
+        <ul id="today_pick_slider">
+            <li class="pick_slide pick_slide1 on">
+                <div class="pick pick1">
+                    <h3><span class="point">20%</span><br>off</h3>
+                    <a href="#"><img src="img/salad.jpg" alt="salad"></a>
+                    <div class="contxt">
+                        <h4><a href="#">싱싱한 야채 특선</a></h4>
+                        <p><a href="#">비타민으로 챙기는<br>
+                            환절기 건강</a></p>
+                    </div>
+                </div>
+                <div class="pick pick2">
+                    <h3><span class="point">HOT</span><br>pick</h3>
+                    <a href="#"><img src="img/spices.jpg" alt="spices"></a>
+                    <div class="contxt">
+                        <h4><a href="#">천연 조미료 40선</a></h4>
+                        <p><a href="#">건강하게 이끌어내는<br>
+                            본연의 맛</a></p>
+                    </div>
+                </div>
+            </li>
+            <li class="pick_slide pick_slide2">
+                <div class="pick pick1">
+                    <h3><span class="point">20%</span><br>off</h3>
+                    <a href="#"><img src="img/cookies.png" alt="cookies"></a>
+                    <div class="contxt">
+                        <h4><a href="#">우리밀 영양 쿠키</a></h4>
+                        <p><a href="#">국내산 무농약 밀로 만든<br>
+                            유기농 간식</a></p>
+                    </div>
+                </div>
+                <div class="pick pick2">
+                    <h3><span class="point">HOT</span><br>pick</h3>
+                    <a href="#"><img src="img/dried_fruit.png" alt="dried_fruit"></a>
+                    <div class="contxt">
+                        <h4><a href="#">말린 과일 100%</a></h4>
+                        <p><a href="#">아무것도 넣지 않은<br>
+                            자연 그대로</a></p>
+                    </div>
+                </div>
+            </li>
+            <li class="pick_slide pick_slide3">
+                <div class="pick pick1">
+                    <h3><span class="point">20%</span><br>off</h3>
+                    <a href="#"><img src="img/meat.jpg" alt="meat"></a>
+                    <div class="contxt">
+                        <h4><a href="#">신선 정육</a></h4>
+                        <p><a href="#">안심하고 먹을 수 있는<br>
+                            무항생제 정육</a></p>
+                    </div>
+                </div>
+                <div class="pick pick2">
+                    <h3><span class="point">HOT</span><br>pick</h3>
+                    <a href="#"><img src="img/snowcrab.jpg" alt="snowcrab"></a>
+                    <div class="contxt">
+                        <h4><a href="#">산지직송 영덕대게</a></h4>
+                        <p><a href="#">속살 꽉 찬<br>
+                            제철 대게</a></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--end today_pick-->
+
+    <div class="clear"></div>
+   
+    <div id="event_new_wrap">
+        <!--start event-->
+        <section id="event_wrap">
+            <h2>새로운 이벤트를 만나보세요!</h2>
+            <span class="more"><a href="#"><span class="plus">+</span> 더보기</a></span>
+            <div id="event">
+                <div id="event_img">
+                    <p>신규 고객<br><br>
+                        가입<span> EVENT</span></p>
+                </div>
+                <div id="event_contxt">
+                    <p>최초 가입 시<br><br>
+                    총 <span>5만원 상당</span>의<br>
+                    <span>할인</span> 쿠폰을<br>드려요!</p>
+                    <a href="#">더 알아보기<img src="img/arrow02.png" alt="arrow02"></a>
+                </div>
+            </div>
+        </section>
+        <!--end event-->
+        <!--start news-->
+        <section id="news_wrap">
+            <h2>큐로의 새 소식</h2>
+            <span class="more"><a href="#"><span class="plus">+</span> 더보기</a></span>
+            <div class="news">
+                <h3><a href="">[매장] 전 지역 매장 확장</a></h3>
+                <div class="news_contxt">
+                    <p>서울, 경기 지역 25곳<br>
+                        그 외 117여곳 매장 신설</p>
+                    <p>더 많은 매장에서<br>
+                        큐로를 만나보세요</p>
+                    <p class="released">게시일: 2020.03.11</p>
+                </div>
+                <a href="#">자세히 <img src="img/arrow01.png" alt="arrow01"></a>
+            </div>
+            <div class="news">
+                <h3><a href="">[홍보] 큐로 공식 인스타그...</a></h3>
+                <div class="news_contxt">
+                    <p>큐로 공식 인스타그램 신설</p>
+                    <p>큐로의 새로운 소식을<br>
+                        빠르게 접해보세요</p>
+                    <p class="released">게시일: 2020.03.11</p>              
+                </div>
+                <a href="#">자세히 <img src="img/arrow01.png" alt="arrow01"></a>
+            </div>
+        </section>
+        <!--end news-->
+    </div>
+
+    <div class="clear"></div>
+
+    <!--start banner-->
+    <section id="banner">
+        <div id="banner_contxt">
+            <img src="img/icon_2times.png" alt="icon_2times">
+            <h2>7만원 이상 구매 시 적립포인트 두 배!</h2>
+            <a href="#">더 알아보기 <img src="img/arrow02.png" alt="arrow02"></a>
+        </div>
+    </section>
+    <!--end banner-->
+
+    <!--start service-->
+    <section id="service">
+        <h2>더욱 더 편리한 큐로</h2>
+        <ul id="ser_menu">
+            <li><a href="#">자주찾는 FAQ<div class="ser_line"></div></a></li>
+            <li><a href="#">오늘의 레시피<div class="ser_line"></div></a></li>
+            <li><a href="#">고객 리뷰<div class="ser_line"></div></a></li>
+            <li><a href="#">갤러리<div class="ser_line"></div></a></li>
+        </ul>
+        <div id="ser_faq" class="ser_box">
+            <span class="more"><a href="#"><span class="plus">+</span> 더보기</a></span>
+            <ul id="faq_list">
+                <li>
+                    <div class="question">비회원으로는 상품구매가 안되나요?</div>
+                    <div class="answer">상품 구매 페이지에서 비회원 주문이 가능합니다.<br>
+                    다만 비회원 주문시 포인트 적립, 쿠폰등의 혜택은 받을 수 없습니다.</div>
+                </li>
+                <li>
+                    <div class="question">구매한 상품을 취소 혹은 반품하고 싶어요.</div>
+                    <div class="answer">상품이 아직 배송준비 전인 경우에만 취소가 가능합니다.<br>
+                    이미 받은 상품의 경우 마이페이지 혹은 상단 메뉴에서<br>
+                    교환 및 반품을 확인해 보세요.</div>
+                </li>
+                <li>
+                    <div class="question">적립금, 쿠폰은 어디서 볼 수 있나요?</div>
+                    <div class="answer">로그인 후 마이페이지의 각 메뉴에서 확인할 수 있습니다.</div>
+                </li>
+                <li>
+                    <div class="question">고객센터 운영시간은 어떻게 되나요?</div>
+                    <div class="answer">고객센터는 평일 오전 10시 ~ 오후 6시까지 운영됩니다.<br>
+                        [고객센터: 080-000-0000]</div>
+                </li>
+            </ul>
+        </div>
+        <div id="ser_recipe" class="ser_box">
+            <div id="recipe_img"></div>
+            <div id="recipe_contxt">
+                <h3>맛있고 간단한<br>
+                    떡볶이 만들기</h3>
+                <div class="recipe_list">
+                    <h4>기본 재료 (2인분 기준)</h4>
+                    <ul>
+                        <li>떡 400g</li>
+                        <li>대파 1컵</li>
+                        <li>물 2컵</li>
+                    </ul>
+                </div>
+                <div class="recipe_list">
+                    <h4>양념장</h4>
+                    <ul>
+                        <li>간장 2t 고추장 1t</li>
+                        <li>설탕 4t 고춧가루 1t</li>
+                    </ul>
+                </div>
+                <span class="more"><a href="#"><span class="plus">+</span> 더보기</a></span>
+                <span class="buynow"><a href="#"><span class="plus">+</span> 재료 바로 구매하기</a></span>
+            </div>
+        </div>
+        <div id="ser_review" class="ser_box">
+            <div id="review_img">
+                <div class="img"></div>
+                <div class="contxt">
+                    <h4><a href="#">고소한 치즈볼 1팩</a></h4>
+                    <p><a href="#">우리아이 영양간식</a></p>
+                </div>
+            </div>
+            <div id="review_contxt">
+                <ul id="review_list">
+                    <li>양도 많고 맛있어요!<span class="member">sun****</span></li>
+                    <li>사기전엔 고민됐는데 애들이 잘 먹네요<span class="member">bak****</span></li>
+                    <li>포장도 깔끔하고 좋네요~~<span class="member">yun****</span></li>
+                </ul>
+                <span class="more"><a href="#"><span class="plus">+</span> 더보기</a></span>
+            </div>
+        </div>
+        <div id="ser_gall" class="ser_box">
+            <div class="gall_box">
+                <div class="gall_img img1"></div>
+                <div class="gall_contxt">
+                    <a href="#">동심을 자극하는 귀여운 쿠키 하우스 만들기!</a>
+                </div>
+            </div>
+            <div class="gall_box">
+                <div class="gall_img img2"></div>
+                <div class="gall_contxt">
+                    <a href="#">더 예쁜 플레이팅을 위한 비결 모음!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end service-->
+
+    <div class="clear"></div>
+
+    <!--start footer-->
+    <footer>
+        <div id="footer_menu_wrap">
+            <div id="footer_menu_box">
+                <ul id="footer_menu">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">채용정보</a></li>
+                    <li><a href="#">제휴안내</a></li>
+                </ul>
+                <ul id="sns">
+                    <li><a href="#"><img src="img/icon_youtobe.png" alt="icon_youtobe"></a></li>
+                    <li><a href="#"><img src="img/icon_insta.png" alt="icon_insta"></a></li>
+                    <li><a href="#"><img src="img/icon_cafe.png" alt="icon_cafe"></a></li>
+                    <li><a href="#"><img src="img/icon_blog.png" alt="icon_blog"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_wrap">
+            <div id="footer_logo">
+                <a href="#"><img src="img/curo_logo02.png" alt="curo_logo02"></a>
+            </div>
+            <ul>
+                <li>(주)Curo<br>
+                    대표이사 : 배현지
+                </li>
+                <li>주소 : 서울시 서초구 서산빌딩 99층</li>
+                <li>고객센터 : 080-000-0000</li>
+                <li>E-mail : curo@brand.com</li>
+                <li>070-070-0707 창업문의 : 1544-0000</li>
+                <li>Copyright 2020. Curo Co., Ltd. 본 사이트는 포트폴리오를 목적으로 제작된 사이트이며 상업적으로 이용할 수 없습니다.</li>
+            </ul>
+        </div>
+    </footer>
+    <!--end footer-->
+
+</body>
+</html>
